@@ -1,0 +1,108 @@
+.bienvenido{
+  text-align: center;
+  box-shadow: 5px 5px 8px #3978f69d;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Fondo blanco */
+    box-shadow: 5px 5px 8px #3978f69d;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 20px;
+  }
+
+  /*escaner*/
+  #preview{
+    width: 80%;
+    border-radius: 25px;
+  }
+  /* Estilo de la etiqueta "SCANNER QR-CODE" */
+  .form-horizontal label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    justify-content: center;
+
+  }
+
+  /* Estilo del contenedor "time" */
+  .form-horizontal .time {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  /* Estilo del contenedor "time" y sus elementos "span" */
+  .form-horizontal .time span {
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px #e2e494a4;
+
+  }
+
+  .form-horizontal input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #e2e494a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  /*la pantalla y el escaner*/
+  .col-md-4 {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #3978f69d;
+    text-align: center;
+    padding: 2px;
+    display: inline-block;
+    text-decoration-line: line-through;
+  }
+
+  /* Estilos para el icono  */
+  .fa-solid.fa-qrcode , label{
+    font-size: 24px;
+    animation: colorChange 2s infinite alternate; 
+  }
+
+  /* Efecto hover para el icono */
+  @keyframes colorChange {
+    from {
+      color: #0380fd;
+      
+    }
+    to {
+      color: #e6bb2d; 
+    }
+  }
+
+  #scanTable,#rowCount {   
+    
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 10px 10px #00000033;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  /* Adjust the font size for smaller screens */
+@media (max-width: 768px) {
+  #scanTable td,
+  #scanTable th {
+      font-size: 12px;
+  }
+}

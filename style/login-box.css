@@ -1,0 +1,42 @@
+/* Estilo para el cuadro de inicio de sesión */
+.login-box {
+    background: #fd8d15;
+    background: linear-gradient(29deg, #fd8d15 16%, #0163e4 15%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #3978f69d;
+}
+
+/* Cambiar color del texto en el cuadro */
+.login-box h2 {
+    color: #ffffff; /* Color del texto */
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    right: 10px;
+}
+
+i{
+    color: #ffffff;
+    padding: 1px ;
+    box-sizing: content-box;
+}
+
+.buton{
+    background-color: #f8ca98;
+    margin: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 7px ;
+    cursor: pointer;
+}
+
+.buton:hover{
+    background-color: #ff8400;
+    margin: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 7px;
+    box-shadow: 5px 2px 8px #f8ca98;
+
+}
